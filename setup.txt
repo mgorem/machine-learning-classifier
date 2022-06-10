@@ -1,12 +1,16 @@
-# create virtual environment:
+# Create and Activate Virtual Environment:
 Windows:
 -----> python -m venv venv
        venv\Scripts\Activate
 
-Linux Distros Create and Activate Virtual Environment:
+Linux Distros:
 -----> pip install virtualenv
        cd projectfolder
        virtualenv projectname
        source projectname/bin/Activate
 # In jupyter notebook:
 - after typing (SHIFT + ENTER) to run code and get to the next line.
+- click below the number on the left and double tap d to delete a cell/row
+
+N/B 
+   Ensure you are using the virtual environment kernel
