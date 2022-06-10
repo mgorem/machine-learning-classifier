@@ -1,0 +1,12 @@
+# create virtual environment:
+Windows:
+-----> python -m venv venv
+       venv\Scripts\Activate
+
+Linux Distros Create and Activate Virtual Environment:
+-----> pip install virtualenv
+       cd projectfolder
+       virtualenv projectname
+       source projectname/bin/Activate
+# In jupyter notebook:
+- after typing (SHIFT + ENTER) to run code and get to the next line.
